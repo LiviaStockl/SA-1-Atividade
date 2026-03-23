@@ -1,33 +1,33 @@
-#Atividade SA-1
+# Atividade SA-1
 
-##Descrição
+## Descrição
 API simples para cadastrar atividades
 
-##Rotas
+## Rotas
 
-##POST /atividades
+## POST /atividades
 Criar atividade
 
-##GET /atividades
+## GET /atividades
 Listar todas
 
-##GET /atividades/:id
+## GET /atividades/:id
 Buscar por id
 
-##PUT /atividades/:id
+## PUT /atividades/:id
 Atualizar atividades
 
-##DELETE /atividade/:id
+## DELETE /atividade/:id
 Remover atividade
 
 
-##Regras de Negócio
+## Regras de Negócio
 - Não permitir criar tarefas com título vazio
 - Não permitir alterar tarefa que já esteja concluída
 - Não permitir concluir tarefas que já esteja conuída
 - O id tem que ser único
 - O sistema deve retornar códigos HTTP corretos
 
-##Tecnologias
+## Tecnologias
 - Node.js
 - Express
